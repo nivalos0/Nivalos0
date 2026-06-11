@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://guns.lol/nivalos">
-    <img src="./assets/buttons/gunslol-button.svg" alt="guns.lol" />
+    <img src="./buttons/gunslol-button.svg" alt="guns.lol" />
   </a>
 </p>
 
