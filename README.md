@@ -2,4 +2,4 @@
 
 - I am currently working on a PrizzLife ReWrite.
 
-![Luau](https://img.shields.io/badge/Luau-Scripting-blue)
+<img src="https://raw.githubusercontent.com/nivalos0/Nivalos0/refs/heads/main/Icons/LuaU.png" height="28">
