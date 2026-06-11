@@ -1,5 +1,7 @@
-# Hello, I am Nivalos
+# Hello, I am Nivalos!
 
-- I am currently working on a PrizzLife ReWrite.
+# Some languages I code in:
 
-<img src="https://raw.githubusercontent.com/nivalos0/Nivalos0/refs/heads/main/Icons/LuaU.png" height="28">
+ <p align="center">
+  <img src="https://raw.githubusercontent.com/nivalos0/Nivalos0/refs/heads/main/Icons/LuaU.png" height="48">
+</p>
