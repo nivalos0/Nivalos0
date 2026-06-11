@@ -3,6 +3,12 @@
 </h1>
 
 <p align="center">
+  <a href="https://guns.lol/nivalos">
+    <img src="./assets/buttons/gunslol-button.svg" alt="guns.lol" />
+  </a>
+</p>
+
+<p align="center">
   Luau Developer • Python Developer
 </p>
 
