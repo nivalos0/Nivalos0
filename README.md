@@ -1,4 +1,4 @@
-#            Hello, I am Nivalos!
+<h1 align="center"># Hi, I am Nivalos!</h1>
 
 <p align="center">
   Luau Developer • Python Developer
