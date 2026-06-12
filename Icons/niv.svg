@@ -1,35 +1,36 @@
-<svg width="900" height="140" viewBox="0 0 900 140" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-  <stop offset="0%" stop-color="#FF0000" />
-  <stop offset="16%" stop-color="#FF7F00" />
-  <stop offset="33%" stop-color="#FFFF00" />
-  <stop offset="50%" stop-color="#00FF00" />
-  <stop offset="66%" stop-color="#0000FF" />
-  <stop offset="83%" stop-color="#4B0082" />
-  <stop offset="100%" stop-color="#9400D3" />
+<svg width="900" height="140" viewBox="0 0 900 140" fill="none" xmlns="http://www.w3.org/2000/svg">  
+  <defs>  
+    <!-- Smooth looping purple gradient -->
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">  
+      <stop offset="0%" stop-color="#4B0082" />   <!-- Deep/Dark Purple -->
+      <stop offset="25%" stop-color="#8A2BE2" />  <!-- Medium Purple -->
+      <stop offset="50%" stop-color="#D8BFD8" />  <!-- Light/Thistle Purple -->
+      <stop offset="75%" stop-color="#8A2BE2" />  <!-- Medium Purple -->
+      <stop offset="100%" stop-color="#4B0082" /> <!-- Deep/Dark Purple -->
+      
+      <!-- Animates the transform x-axis continuously for a flowing effect -->
+      <animateTransform  
+        attributeName="gradientTransform"  
+        type="translate"  
+        from="0 0"  
+        to="900 0"  
+        dur="4s"  
+        gradientUnits="userSpaceOnUse"
+        repeatCount="indefinite"  
+      />
+    </linearGradient>
 
-  <animateTransform
-    attributeName="gradientTransform"
-    type="translate"
-    from="-900 0"
-    to="900 0"
-    dur="4s"
-    repeatCount="indefinite"
-  />
-</linearGradient>
-
-    <filter id="softGlow" x="-20%" y="-50%" width="140%" height="200%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
+    <!-- Subtle glow filter to make the purple pop against dark background -->
+    <filter id="softGlow" x="-20%" y="-50%" width="140%" height="200%">  
+      <feGaussianBlur stdDeviation="3" result="blur" />  
+      <feMerge>  
+        <feMergeNode in="blur" />  
+        <feMergeNode in="SourceGraphic" />  
+      </feMerge>  
     </filter>
-  </defs>
+  </defs>    
 
-  <rect width="900" height="140" rx="24" fill="#050505" fill-opacity="0.04" />
-
+  <!-- Background rect removed for total transparency -->
   <text
     x="50%"
     y="52%"
@@ -41,7 +42,7 @@
     letter-spacing="2"
     fill="url(#textGradient)"
     filter="url(#softGlow)"
-  >
+  > 
     Nivalos (@nivalos0)
-  </text>
+  </text>  
 </svg>
